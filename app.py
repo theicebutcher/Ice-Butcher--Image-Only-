@@ -30,7 +30,7 @@ def encode_image(image_path):
 
 
 # Global conversation history with a welcome message
-conversation_history = [{"user": "", "ai": "Welcome to Ice Butcher! How can I assist you today?  If you have any questions about ice sculptures or our services, feel free to ask.🧊"}]
+conversation_history = [{"user": "", "ai": "Welcome to Ice Butcher! How can I assist you today? you can gernate ice sckupers form that feel free to make 🧊"}]
 
 
 @app.route("/", methods=["GET"])
